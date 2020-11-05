@@ -1,0 +1,7 @@
+This file contains some C# code that was created by Alex Drew
+
+Some of the code shown will have been used in game creation, due to them being taken out of the projects they may show as errors or not work correctly due to not being used in Unity(Game creation software)
+the code will be marked with a ({GAME}) tag, and will be in their own folders for each project.
+
+Thanks
+Alex
