@@ -1,0 +1,14 @@
+D:\work\MobileAppAPI\Persistence\bin\Debug\net5.0\Persistence.deps.json
+D:\work\MobileAppAPI\Persistence\bin\Debug\net5.0\Persistence.dll
+D:\work\MobileAppAPI\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+D:\work\MobileAppAPI\Persistence\bin\Debug\net5.0\Persistence.pdb
+D:\work\MobileAppAPI\Persistence\bin\Debug\net5.0\TreeSurvay.dll
+D:\work\MobileAppAPI\Persistence\bin\Debug\net5.0\TreeSurvay.pdb
+D:\work\MobileAppAPI\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+D:\work\MobileAppAPI\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\MobileAppAPI\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+D:\work\MobileAppAPI\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+D:\work\MobileAppAPI\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+D:\work\MobileAppAPI\Persistence\obj\Debug\net5.0\Persistence.dll
+D:\work\MobileAppAPI\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+D:\work\MobileAppAPI\Persistence\obj\Debug\net5.0\Persistence.pdb

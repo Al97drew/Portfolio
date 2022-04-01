@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.FormInput.fragment_Form_Input">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Tree_Name_Common"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tree Name Common"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tb_Tree_Name_Common"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Name_of_Tree_Bot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name of tree botanical"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/dd_Name_Of_Tree_bot"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:spinnerMode="dropdown" />
+
+                <Button
+                    android:id="@+id/btn_AddBotanicalName"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Add New" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Tree_Diameter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tree Diameter"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tbn_Tree_diameter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Planting_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Planting Date"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tbdate_Planting_Date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number|numberSigned"
+                android:digits="0123456789-"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Tree_Age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tree Age"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/dd_Tree_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Crown_Condition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crown Condition"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/dd_Crown_Condition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_Crown_Comments"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Crown Comments"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/mlt_CrownComments"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Trunk_Condition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trunk Condition"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/dd_Trunk_Condition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Root_Condition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Root Condition"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/dd_Root_Condition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Type_of_Planting_Area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type of Planting Area"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/dd_Type_of_Planting_Area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Nearest_Infrastructure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nearest Infrastructure"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/dd_Nearest_Infrastructure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Size_of_Tree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Size Of Tree"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tb_Size_of_Tree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Prospective_Tree_Size_Crown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prospective Tree Size (Crown)"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/dd_Prospective_Tree_Size_Crown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Prospective_Tree_Size_Height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prospective Tree Size (Height)"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/dd_Prospective_Tree_Size_Height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Tree_Pit_Present"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tree Pit Present"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rg_Tree_Pit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="false"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_Tree_Pit_Present_True"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/rb_Tree_Pit_Present_False"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Surface_Tree_Pit_Size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Surface Tree Pit Size"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tb_Surface_Tree_Pit_Size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Volume_of_Tree_Pit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Volume Of Tree Pit"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tb_Volume_of_Tree_Pit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Type_of_Tree_Pit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type Of Tree Pit"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tb_Type_of_Tree_Pit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Tree_Staked"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tree Staked"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rg_Tree_Staked"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_Tree_Staked_True"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/rb_Tree_Staked_False"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Accurate_Location_Record"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Record Location Accurately"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tb_Location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_How_Many_Trees"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How many trees of the same species are there within a 50m visual radius"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/dd_How_Many_Trees"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Comments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Further Comments"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/mlt_Comments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btn_Form_Submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

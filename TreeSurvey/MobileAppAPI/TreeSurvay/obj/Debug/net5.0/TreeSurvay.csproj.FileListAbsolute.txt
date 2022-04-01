@@ -1,0 +1,12 @@
+D:\work\MobileAppAPI\TreeSurvay\bin\Debug\net5.0\TreeSurvay.deps.json
+D:\work\MobileAppAPI\TreeSurvay\bin\Debug\net5.0\TreeSurvay.dll
+D:\work\MobileAppAPI\TreeSurvay\bin\Debug\net5.0\ref\TreeSurvay.dll
+D:\work\MobileAppAPI\TreeSurvay\bin\Debug\net5.0\TreeSurvay.pdb
+D:\work\MobileAppAPI\TreeSurvay\obj\Debug\net5.0\TreeSurvay.csproj.AssemblyReference.cache
+D:\work\MobileAppAPI\TreeSurvay\obj\Debug\net5.0\TreeSurvay.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\MobileAppAPI\TreeSurvay\obj\Debug\net5.0\TreeSurvay.AssemblyInfoInputs.cache
+D:\work\MobileAppAPI\TreeSurvay\obj\Debug\net5.0\TreeSurvay.AssemblyInfo.cs
+D:\work\MobileAppAPI\TreeSurvay\obj\Debug\net5.0\TreeSurvay.csproj.CoreCompileInputs.cache
+D:\work\MobileAppAPI\TreeSurvay\obj\Debug\net5.0\TreeSurvay.dll
+D:\work\MobileAppAPI\TreeSurvay\obj\Debug\net5.0\ref\TreeSurvay.dll
+D:\work\MobileAppAPI\TreeSurvay\obj\Debug\net5.0\TreeSurvay.pdb

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:id="@+id/fragment_Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv_SelectTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SelectTable" />
+
+        <Spinner
+            android:id="@+id/dd_SelectTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btn_OpenTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Table" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/tv_CreateNewTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create New Table" />
+
+        <EditText
+            android:id="@+id/tb_NewTableName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Table Name" />
+
+        <Button
+            android:id="@+id/btn_CreateNewTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create New Table" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/tv_DeleteTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Table" />
+
+        <Spinner
+            android:id="@+id/dd_DeleteTableName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_Confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please type name to make sure" />
+
+        <EditText
+            android:id="@+id/tb_Confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Confirm" />
+
+        <Button
+            android:id="@+id/btn_Confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv_Export"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Table To Export" />
+
+        <Spinner
+            android:id="@+id/dd_SelectToExport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_Export"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Export Table" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
